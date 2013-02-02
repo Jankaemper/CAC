@@ -1,0 +1,7 @@
+karten von Wouter Meulemans liegen im ipe format vor (endung .ipe)
+ausserdem enthalten Wouters karten input (ursprünglich) und output (schematisiert) polygone 
+
+Um sie in das benötigte Format zu verwandeln, ist folgendes zu tun:
+1. Die output-polygone extrahieren (alle paths die als layer 'output') gesetzt haben (das ist der hintere Teil der datei, meist ab der hälfte) und in eine seperate Datei mit prefix 'Z_' und endung '.dat' schreiben
+2. Diese Z_*.dat im Kartogram Program als Input datei öffnen. Das datenformat wird umgewandelt und in eine neue datei mit prefix 'Zerlegt_' , mittelteil wie vorher und endung '.dat' geschrieben
+3. Nun muss man noch manuell die Anzahl der Zeilen in der finalen .dat Datei an den Dateinanfang schreiben

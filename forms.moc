@@ -1,0 +1,749 @@
+/****************************************************************************
+** Notifier meta object code from reading C++ file 'forms.h'
+**
+** Created: Mon Jun 25 14:50:23 2012
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "forms.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8b. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *Notifier::className() const
+{
+    return "Notifier";
+}
+
+QMetaObject *Notifier::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_Notifier( "Notifier", &Notifier::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString Notifier::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Notifier", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString Notifier::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Notifier", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* Notifier::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QDialog::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"Notifier", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_Notifier.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* Notifier::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "Notifier" ) )
+	return this;
+    return QDialog::qt_cast( clname );
+}
+
+bool Notifier::qt_invoke( int _id, QUObject* _o )
+{
+    return QDialog::qt_invoke(_id,_o);
+}
+
+bool Notifier::qt_emit( int _id, QUObject* _o )
+{
+    return QDialog::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool Notifier::qt_property( int id, int f, QVariant* v)
+{
+    return QDialog::qt_property( id, f, v);
+}
+
+bool Notifier::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *WeightsForm::className() const
+{
+    return "WeightsForm";
+}
+
+QMetaObject *WeightsForm::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_WeightsForm( "WeightsForm", &WeightsForm::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString WeightsForm::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "WeightsForm", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString WeightsForm::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "WeightsForm", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* WeightsForm::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QDialog::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"WeightsForm", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_WeightsForm.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* WeightsForm::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "WeightsForm" ) )
+	return this;
+    return QDialog::qt_cast( clname );
+}
+
+bool WeightsForm::qt_invoke( int _id, QUObject* _o )
+{
+    return QDialog::qt_invoke(_id,_o);
+}
+
+bool WeightsForm::qt_emit( int _id, QUObject* _o )
+{
+    return QDialog::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool WeightsForm::qt_property( int id, int f, QVariant* v)
+{
+    return QDialog::qt_property( id, f, v);
+}
+
+bool WeightsForm::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *MySpinBox::className() const
+{
+    return "MySpinBox";
+}
+
+QMetaObject *MySpinBox::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MySpinBox( "MySpinBox", &MySpinBox::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MySpinBox::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MySpinBox", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MySpinBox::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MySpinBox", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MySpinBox::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QSpinBox::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"MySpinBox", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MySpinBox.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MySpinBox::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MySpinBox" ) )
+	return this;
+    return QSpinBox::qt_cast( clname );
+}
+
+bool MySpinBox::qt_invoke( int _id, QUObject* _o )
+{
+    return QSpinBox::qt_invoke(_id,_o);
+}
+
+bool MySpinBox::qt_emit( int _id, QUObject* _o )
+{
+    return QSpinBox::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MySpinBox::qt_property( int id, int f, QVariant* v)
+{
+    return QSpinBox::qt_property( id, f, v);
+}
+
+bool MySpinBox::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *PropertiesForm::className() const
+{
+    return "PropertiesForm";
+}
+
+QMetaObject *PropertiesForm::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_PropertiesForm( "PropertiesForm", &PropertiesForm::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString PropertiesForm::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PropertiesForm", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString PropertiesForm::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PropertiesForm", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* PropertiesForm::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QDialog::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"PropertiesForm", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_PropertiesForm.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* PropertiesForm::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "PropertiesForm" ) )
+	return this;
+    return QDialog::qt_cast( clname );
+}
+
+bool PropertiesForm::qt_invoke( int _id, QUObject* _o )
+{
+    return QDialog::qt_invoke(_id,_o);
+}
+
+bool PropertiesForm::qt_emit( int _id, QUObject* _o )
+{
+    return QDialog::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool PropertiesForm::qt_property( int id, int f, QVariant* v)
+{
+    return QDialog::qt_property( id, f, v);
+}
+
+bool PropertiesForm::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *OverlayForm::className() const
+{
+    return "OverlayForm";
+}
+
+QMetaObject *OverlayForm::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_OverlayForm( "OverlayForm", &OverlayForm::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString OverlayForm::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "OverlayForm", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString OverlayForm::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "OverlayForm", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* OverlayForm::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QDialog::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"OverlayForm", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_OverlayForm.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* OverlayForm::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "OverlayForm" ) )
+	return this;
+    return QDialog::qt_cast( clname );
+}
+
+bool OverlayForm::qt_invoke( int _id, QUObject* _o )
+{
+    return QDialog::qt_invoke(_id,_o);
+}
+
+bool OverlayForm::qt_emit( int _id, QUObject* _o )
+{
+    return QDialog::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool OverlayForm::qt_property( int id, int f, QVariant* v)
+{
+    return QDialog::qt_property( id, f, v);
+}
+
+bool OverlayForm::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *DDListBox::className() const
+{
+    return "DDListBox";
+}
+
+QMetaObject *DDListBox::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_DDListBox( "DDListBox", &DDListBox::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString DDListBox::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "DDListBox", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString DDListBox::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "DDListBox", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* DDListBox::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QListBox::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"DDListBox", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_DDListBox.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* DDListBox::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "DDListBox" ) )
+	return this;
+    return QListBox::qt_cast( clname );
+}
+
+bool DDListBox::qt_invoke( int _id, QUObject* _o )
+{
+    return QListBox::qt_invoke(_id,_o);
+}
+
+bool DDListBox::qt_emit( int _id, QUObject* _o )
+{
+    return QListBox::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool DDListBox::qt_property( int id, int f, QVariant* v)
+{
+    return QListBox::qt_property( id, f, v);
+}
+
+bool DDListBox::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *OptionsForm::className() const
+{
+    return "OptionsForm";
+}
+
+QMetaObject *OptionsForm::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_OptionsForm( "OptionsForm", &OptionsForm::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString OptionsForm::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "OptionsForm", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString OptionsForm::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "OptionsForm", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* OptionsForm::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QDialog::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"OptionsForm", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_OptionsForm.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* OptionsForm::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "OptionsForm" ) )
+	return this;
+    return QDialog::qt_cast( clname );
+}
+
+bool OptionsForm::qt_invoke( int _id, QUObject* _o )
+{
+    return QDialog::qt_invoke(_id,_o);
+}
+
+bool OptionsForm::qt_emit( int _id, QUObject* _o )
+{
+    return QDialog::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool OptionsForm::qt_property( int id, int f, QVariant* v)
+{
+    return QDialog::qt_property( id, f, v);
+}
+
+bool OptionsForm::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *CheckForm::className() const
+{
+    return "CheckForm";
+}
+
+QMetaObject *CheckForm::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_CheckForm( "CheckForm", &CheckForm::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString CheckForm::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CheckForm", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString CheckForm::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CheckForm", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* CheckForm::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QDialog::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"CheckForm", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_CheckForm.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* CheckForm::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "CheckForm" ) )
+	return this;
+    return QDialog::qt_cast( clname );
+}
+
+bool CheckForm::qt_invoke( int _id, QUObject* _o )
+{
+    return QDialog::qt_invoke(_id,_o);
+}
+
+bool CheckForm::qt_emit( int _id, QUObject* _o )
+{
+    return QDialog::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool CheckForm::qt_property( int id, int f, QVariant* v)
+{
+    return QDialog::qt_property( id, f, v);
+}
+
+bool CheckForm::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *FileOpenOptionsForm::className() const
+{
+    return "FileOpenOptionsForm";
+}
+
+QMetaObject *FileOpenOptionsForm::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_FileOpenOptionsForm( "FileOpenOptionsForm", &FileOpenOptionsForm::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString FileOpenOptionsForm::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "FileOpenOptionsForm", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString FileOpenOptionsForm::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "FileOpenOptionsForm", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* FileOpenOptionsForm::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QDialog::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"FileOpenOptionsForm", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_FileOpenOptionsForm.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* FileOpenOptionsForm::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "FileOpenOptionsForm" ) )
+	return this;
+    return QDialog::qt_cast( clname );
+}
+
+bool FileOpenOptionsForm::qt_invoke( int _id, QUObject* _o )
+{
+    return QDialog::qt_invoke(_id,_o);
+}
+
+bool FileOpenOptionsForm::qt_emit( int _id, QUObject* _o )
+{
+    return QDialog::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool FileOpenOptionsForm::qt_property( int id, int f, QVariant* v)
+{
+    return QDialog::qt_property( id, f, v);
+}
+
+bool FileOpenOptionsForm::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *PointLocationStrategyForm::className() const
+{
+    return "PointLocationStrategyForm";
+}
+
+QMetaObject *PointLocationStrategyForm::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_PointLocationStrategyForm( "PointLocationStrategyForm", &PointLocationStrategyForm::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString PointLocationStrategyForm::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PointLocationStrategyForm", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString PointLocationStrategyForm::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PointLocationStrategyForm", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* PointLocationStrategyForm::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QDialog::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"PointLocationStrategyForm", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_PointLocationStrategyForm.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* PointLocationStrategyForm::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "PointLocationStrategyForm" ) )
+	return this;
+    return QDialog::qt_cast( clname );
+}
+
+bool PointLocationStrategyForm::qt_invoke( int _id, QUObject* _o )
+{
+    return QDialog::qt_invoke(_id,_o);
+}
+
+bool PointLocationStrategyForm::qt_emit( int _id, QUObject* _o )
+{
+    return QDialog::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool PointLocationStrategyForm::qt_property( int id, int f, QVariant* v)
+{
+    return QDialog::qt_property( id, f, v);
+}
+
+bool PointLocationStrategyForm::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

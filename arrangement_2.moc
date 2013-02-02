@@ -1,0 +1,411 @@
+/****************************************************************************
+** MyWindow meta object code from reading C++ file 'arrangement_2.h'
+**
+** Created: Mon Jun 25 14:50:23 2012
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "arrangement_2.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8b. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *MyWindow::className() const
+{
+    return "MyWindow";
+}
+
+QMetaObject *MyWindow::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MyWindow( "MyWindow", &MyWindow::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MyWindow::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MyWindow", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MyWindow::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MyWindow", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MyWindow::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QMainWindow::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "obj", &static_QUType_ptr, "CGAL::Object", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"get_new_object", 1, param_slot_0 };
+    static const QUMethod slot_1 = {"about", 0, 0 };
+    static const QUMethod slot_2 = {"aboutQt", 0, 0 };
+    static const QUMethod slot_3 = {"howto", 0, 0 };
+    static const QUMethod slot_4 = {"remove_tab", 0, 0 };
+    static const QUMethod slot_5 = {"timer_done", 0, 0 };
+    static const QUParameter param_slot_6[] = {
+	{ "on", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"updateSnapMode", 1, param_slot_6 };
+    static const QUParameter param_slot_7[] = {
+	{ "on", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"updateGridSnapMode", 1, param_slot_7 };
+    static const QUParameter param_slot_8[] = {
+	{ "action", &static_QUType_ptr, "QAction", QUParameter::In }
+    };
+    static const QUMethod slot_8 = {"updateMode", 1, param_slot_8 };
+    static const QUParameter param_slot_9[] = {
+	{ "m", &static_QUType_ptr, "Mode", QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"setMode", 1, param_slot_9 };
+    static const QUMethod slot_10 = {"update", 0, 0 };
+    static const QUMethod slot_11 = {"zoomin", 0, 0 };
+    static const QUMethod slot_12 = {"zoomout", 0, 0 };
+    static const QUParameter param_slot_13[] = {
+	{ "indicator", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_13 = {"fileOpen", 1, param_slot_13 };
+    static const QUParameter param_slot_14[] = {
+	{ "indicator", &static_QUType_bool, 0, QUParameter::In },
+	{ "clear_flag", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_14 = {"fileOpen", 2, param_slot_14 };
+    static const QUParameter param_slot_15[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::Out },
+	{ "filename", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_15 = {"prescanInput", 2, param_slot_15 };
+    static const QUMethod slot_16 = {"fileOpenPm", 0, 0 };
+    static const QUMethod slot_17 = {"fileOpenSegment", 0, 0 };
+    static const QUMethod slot_18 = {"fileOpenConic", 0, 0 };
+    static const QUMethod slot_19 = {"fileSave", 0, 0 };
+    static const QUMethod slot_20 = {"fileSave_ps", 0, 0 };
+    static const QUMethod slot_21 = {"fileSaveAs", 0, 0 };
+    static const QUMethod slot_22 = {"print", 0, 0 };
+    static const QUMethod slot_23 = {"properties", 0, 0 };
+    static const QUMethod slot_24 = {"showGrid", 0, 0 };
+    static const QUMethod slot_25 = {"hideGrid", 0, 0 };
+    static const QUMethod slot_26 = {"backGroundColor", 0, 0 };
+    static const QUMethod slot_27 = {"changeEdgeColor", 0, 0 };
+    static const QUMethod slot_28 = {"changeVertexColor", 0, 0 };
+    static const QUMethod slot_29 = {"pointLocationStrategy", 0, 0 };
+    static const QUMethod slot_30 = {"openColorDialog", 0, 0 };
+    static const QUMethod slot_31 = {"add_conic_tab", 0, 0 };
+    static const QUMethod slot_32 = {"cartogram_balance", 0, 0 };
+    static const QUMethod slot_33 = {"cartogram_weights", 0, 0 };
+    static const QUMethod slot_34 = {"cartogram_it", 0, 0 };
+    static const QUMethod slot_35 = {"cartogram_start", 0, 0 };
+    static const QUParameter param_slot_36[] = {
+	{ "f", &static_QUType_ptr, "Conic_face_handle", QUParameter::In }
+    };
+    static const QUMethod slot_36 = {"FaceArea", 1, param_slot_36 };
+    static const QUMethod slot_37 = {"setUpWeights", 0, 0 };
+    static const QUParameter param_slot_38[] = {
+	{ "f", &static_QUType_ptr, "Conic_face_handle", QUParameter::In }
+    };
+    static const QUMethod slot_38 = {"extractRoughPolygonFromFace", 1, param_slot_38 };
+    static const QUParameter param_slot_39[] = {
+	{ "f", &static_QUType_ptr, "Conic_face_handle", QUParameter::In },
+	{ "precision", &static_QUType_ptr, "float", QUParameter::In }
+    };
+    static const QUMethod slot_39 = {"extractFinePolygonFromFace", 2, param_slot_39 };
+    static const QUParameter param_slot_40[] = {
+	{ "f", &static_QUType_ptr, "Conic_face_handle", QUParameter::In }
+    };
+    static const QUMethod slot_40 = {"extractPolygonKFromFace", 1, param_slot_40 };
+    static const QUParameter param_slot_41[] = {
+	{ "indPrimalFaces", &static_QUType_ptr, "primalMap", QUParameter::In },
+	{ "indDualVertices", &static_QUType_ptr, "dualMap", QUParameter::In }
+    };
+    static const QUMethod slot_41 = {"extractDualFromArrangement", 2, param_slot_41 };
+    static const QUMethod slot_42 = {"print_all_weights", 0, 0 };
+    static const QUParameter param_slot_43[] = {
+	{ 0, &static_QUType_double, 0, QUParameter::Out },
+	{ "fhan", &static_QUType_ptr, "Conic_face_handle", QUParameter::In },
+	{ "hhan", &static_QUType_ptr, "Conic_halfedge_handle", QUParameter::In }
+    };
+    static const QUMethod slot_43 = {"calcBendingCapacityEstimate", 3, param_slot_43 };
+    static const QUParameter param_slot_44[] = {
+	{ 0, &static_QUType_double, 0, QUParameter::Out },
+	{ "fhan", &static_QUType_ptr, "Conic_face_handle", QUParameter::In },
+	{ "hhan", &static_QUType_ptr, "Conic_halfedge_handle", QUParameter::In },
+	{ "indPrimalFaces", &static_QUType_ptr, "primalMap", QUParameter::In }
+    };
+    static const QUMethod slot_44 = {"calcBendingCapacityExact", 4, param_slot_44 };
+    static const QUParameter param_slot_45[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::Out },
+	{ "h1", &static_QUType_ptr, "Conic_halfedge_handle", QUParameter::In },
+	{ "h2", &static_QUType_ptr, "Halfedge_handle", QUParameter::In }
+    };
+    static const QUMethod slot_45 = {"compareEdges", 3, param_slot_45 };
+    static const QUParameter param_slot_46[] = {
+	{ 0, &static_QUType_double, 0, QUParameter::Out },
+	{ "hh1", &static_QUType_ptr, "Halfedge_handle", QUParameter::In },
+	{ "hh2", &static_QUType_ptr, "Halfedge_handle", QUParameter::In },
+	{ "p1", &static_QUType_ptr, "K_point", QUParameter::In }
+    };
+    static const QUMethod slot_46 = {"calculateAngle", 4, param_slot_46 };
+    static const QUParameter param_slot_47[] = {
+	{ 0, &static_QUType_double, 0, QUParameter::Out },
+	{ "hh1", &static_QUType_ptr, "Conic_halfedge_handle", QUParameter::In },
+	{ "hh2", &static_QUType_ptr, "Conic_halfedge_handle", QUParameter::In },
+	{ "p1", &static_QUType_ptr, "Arr_conic_point_2", QUParameter::In }
+    };
+    static const QUMethod slot_47 = {"calculateAngle", 4, param_slot_47 };
+    static const QUParameter param_slot_48[] = {
+	{ 0, &static_QUType_double, 0, QUParameter::Out },
+	{ "a", &static_QUType_double, 0, QUParameter::In },
+	{ "p1", &static_QUType_ptr, "Arr_conic_point_2", QUParameter::In },
+	{ "p2", &static_QUType_ptr, "Arr_conic_point_2", QUParameter::In }
+    };
+    static const QUMethod slot_48 = {"areaToArcHeight", 4, param_slot_48 };
+    static const QUParameter param_slot_49[] = {
+	{ "hhan", &static_QUType_ptr, "Conic_halfedge_handle", QUParameter::In },
+	{ "h", &static_QUType_double, 0, QUParameter::In }
+    };
+    static const QUMethod slot_49 = {"bendEdge", 2, param_slot_49 };
+    static const QUParameter param_slot_50[] = {
+	{ "hhan", &static_QUType_ptr, "Conic_halfedge_handle", QUParameter::In },
+	{ "h", &static_QUType_double, 0, QUParameter::In }
+    };
+    static const QUMethod slot_50 = {"obtainCircularArc", 2, param_slot_50 };
+    static const QUParameter param_slot_51[] = {
+	{ "fhan", &static_QUType_ptr, "Conic_face_handle", QUParameter::In }
+    };
+    static const QUMethod slot_51 = {"showSkeleton", 1, param_slot_51 };
+    static const QUParameter param_slot_52[] = {
+	{ "fhan", &static_QUType_ptr, "Conic_face_handle", QUParameter::In },
+	{ "hhan", &static_QUType_ptr, "Conic_halfedge_handle", QUParameter::In }
+    };
+    static const QUMethod slot_52 = {"showSkeletonFace", 2, param_slot_52 };
+    static const QUParameter param_slot_53[] = {
+	{ "dual", &static_QUType_ptr, "dualGraph", QUParameter::In },
+	{ "indPrimalFaces", &static_QUType_ptr, "primalMap", QUParameter::In },
+	{ "indDualVertices", &static_QUType_ptr, "dualMap", QUParameter::In }
+    };
+    static const QUMethod slot_53 = {"applyFlow", 3, param_slot_53 };
+    static const QUParameter param_slot_54[] = {
+	{ "dual", &static_QUType_ptr, "dualGraph", QUParameter::In }
+    };
+    static const QUMethod slot_54 = {"printDualToFile", 1, param_slot_54 };
+    static const QUParameter param_slot_55[] = {
+	{ "dual", &static_QUType_ptr, "dualGraph", QUParameter::In },
+	{ "indPrimalFaces", &static_QUType_ptr, "primalMap", QUParameter::In },
+	{ "indDualVertices", &static_QUType_ptr, "dualMap", QUParameter::In },
+	{ "filename", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_55 = {"store", 4, param_slot_55 };
+    static const QUParameter param_slot_56[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::Out },
+	{ "hhan", &static_QUType_ptr, "Conic_halfedge_handle", QUParameter::In },
+	{ "p", &static_QUType_ptr, "Arr_conic_point_2", QUParameter::In }
+    };
+    static const QUMethod slot_56 = {"vertexIsReflex", 3, param_slot_56 };
+    static const QUMethod slot_57 = {"getBoundingPolygon", 0, 0 };
+    static const QUParameter param_slot_58[] = {
+	{ "conti", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_58 = {"getContinentPolygon", 1, param_slot_58 };
+    static const QUMethod slot_59 = {"clusterContinents", 0, 0 };
+    static const QUParameter param_slot_60[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out },
+	{ "fhan", &static_QUType_ptr, "Conic_face_handle", QUParameter::In }
+    };
+    static const QUMethod slot_60 = {"searchConti", 2, param_slot_60 };
+    static const QUParameter param_slot_61[] = {
+	{ "skeleton", &static_QUType_ptr, "SsPtr", QUParameter::In }
+    };
+    static const QUMethod slot_61 = {"printSkeleton", 1, param_slot_61 };
+    static const QUParameter param_slot_62[] = {
+	{ "filename", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_62 = {"storeStraight", 1, param_slot_62 };
+    static const QMetaData slot_tbl[] = {
+	{ "get_new_object(CGAL::Object)", &slot_0, QMetaData::Private },
+	{ "about()", &slot_1, QMetaData::Private },
+	{ "aboutQt()", &slot_2, QMetaData::Private },
+	{ "howto()", &slot_3, QMetaData::Private },
+	{ "remove_tab()", &slot_4, QMetaData::Private },
+	{ "timer_done()", &slot_5, QMetaData::Private },
+	{ "updateSnapMode(bool)", &slot_6, QMetaData::Private },
+	{ "updateGridSnapMode(bool)", &slot_7, QMetaData::Private },
+	{ "updateMode(QAction*)", &slot_8, QMetaData::Private },
+	{ "setMode(Mode)", &slot_9, QMetaData::Private },
+	{ "update()", &slot_10, QMetaData::Private },
+	{ "zoomin()", &slot_11, QMetaData::Private },
+	{ "zoomout()", &slot_12, QMetaData::Private },
+	{ "fileOpen(bool)", &slot_13, QMetaData::Private },
+	{ "fileOpen(bool,bool)", &slot_14, QMetaData::Private },
+	{ "prescanInput(const QString&)", &slot_15, QMetaData::Private },
+	{ "fileOpenPm()", &slot_16, QMetaData::Private },
+	{ "fileOpenSegment()", &slot_17, QMetaData::Private },
+	{ "fileOpenConic()", &slot_18, QMetaData::Private },
+	{ "fileSave()", &slot_19, QMetaData::Private },
+	{ "fileSave_ps()", &slot_20, QMetaData::Private },
+	{ "fileSaveAs()", &slot_21, QMetaData::Private },
+	{ "print()", &slot_22, QMetaData::Private },
+	{ "properties()", &slot_23, QMetaData::Private },
+	{ "showGrid()", &slot_24, QMetaData::Private },
+	{ "hideGrid()", &slot_25, QMetaData::Private },
+	{ "backGroundColor()", &slot_26, QMetaData::Private },
+	{ "changeEdgeColor()", &slot_27, QMetaData::Private },
+	{ "changeVertexColor()", &slot_28, QMetaData::Private },
+	{ "pointLocationStrategy()", &slot_29, QMetaData::Private },
+	{ "openColorDialog()", &slot_30, QMetaData::Private },
+	{ "add_conic_tab()", &slot_31, QMetaData::Private },
+	{ "cartogram_balance()", &slot_32, QMetaData::Private },
+	{ "cartogram_weights()", &slot_33, QMetaData::Private },
+	{ "cartogram_it()", &slot_34, QMetaData::Private },
+	{ "cartogram_start()", &slot_35, QMetaData::Private },
+	{ "FaceArea(Conic_face_handle)", &slot_36, QMetaData::Private },
+	{ "setUpWeights()", &slot_37, QMetaData::Private },
+	{ "extractRoughPolygonFromFace(Conic_face_handle)", &slot_38, QMetaData::Private },
+	{ "extractFinePolygonFromFace(Conic_face_handle,float)", &slot_39, QMetaData::Private },
+	{ "extractPolygonKFromFace(Conic_face_handle)", &slot_40, QMetaData::Private },
+	{ "extractDualFromArrangement(primalMap*,dualMap*)", &slot_41, QMetaData::Private },
+	{ "print_all_weights()", &slot_42, QMetaData::Private },
+	{ "calcBendingCapacityEstimate(Conic_face_handle,Conic_halfedge_handle)", &slot_43, QMetaData::Private },
+	{ "calcBendingCapacityExact(Conic_face_handle,Conic_halfedge_handle,primalMap*)", &slot_44, QMetaData::Private },
+	{ "compareEdges(Conic_halfedge_handle,Halfedge_handle)", &slot_45, QMetaData::Private },
+	{ "calculateAngle(Halfedge_handle,Halfedge_handle,K_point)", &slot_46, QMetaData::Private },
+	{ "calculateAngle(Conic_halfedge_handle,Conic_halfedge_handle,Arr_conic_point_2)", &slot_47, QMetaData::Private },
+	{ "areaToArcHeight(double,Arr_conic_point_2,Arr_conic_point_2)", &slot_48, QMetaData::Private },
+	{ "bendEdge(Conic_halfedge_handle,double)", &slot_49, QMetaData::Private },
+	{ "obtainCircularArc(Conic_halfedge_handle,double)", &slot_50, QMetaData::Private },
+	{ "showSkeleton(Conic_face_handle)", &slot_51, QMetaData::Private },
+	{ "showSkeletonFace(Conic_face_handle,Conic_halfedge_handle)", &slot_52, QMetaData::Private },
+	{ "applyFlow(dualGraph*,primalMap*,dualMap*)", &slot_53, QMetaData::Private },
+	{ "printDualToFile(dualGraph)", &slot_54, QMetaData::Private },
+	{ "store(dualGraph,primalMap*,dualMap*,QString)", &slot_55, QMetaData::Private },
+	{ "vertexIsReflex(Conic_halfedge_handle,Arr_conic_point_2)", &slot_56, QMetaData::Private },
+	{ "getBoundingPolygon()", &slot_57, QMetaData::Private },
+	{ "getContinentPolygon(int)", &slot_58, QMetaData::Private },
+	{ "clusterContinents()", &slot_59, QMetaData::Private },
+	{ "searchConti(Conic_face_handle)", &slot_60, QMetaData::Private },
+	{ "printSkeleton(SsPtr)", &slot_61, QMetaData::Private },
+	{ "storeStraight(QString)", &slot_62, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MyWindow", parentObject,
+	slot_tbl, 63,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MyWindow.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MyWindow::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MyWindow" ) )
+	return this;
+    return QMainWindow::qt_cast( clname );
+}
+
+bool MyWindow::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: get_new_object((CGAL::Object)(*((CGAL::Object*)static_QUType_ptr.get(_o+1)))); break;
+    case 1: about(); break;
+    case 2: aboutQt(); break;
+    case 3: howto(); break;
+    case 4: remove_tab(); break;
+    case 5: timer_done(); break;
+    case 6: updateSnapMode((bool)static_QUType_bool.get(_o+1)); break;
+    case 7: updateGridSnapMode((bool)static_QUType_bool.get(_o+1)); break;
+    case 8: updateMode((QAction*)static_QUType_ptr.get(_o+1)); break;
+    case 9: setMode((Mode)(*((Mode*)static_QUType_ptr.get(_o+1)))); break;
+    case 10: update(); break;
+    case 11: zoomin(); break;
+    case 12: zoomout(); break;
+    case 13: fileOpen((bool)static_QUType_bool.get(_o+1)); break;
+    case 14: fileOpen((bool)static_QUType_bool.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 15: static_QUType_QString.set(_o,prescanInput((const QString&)static_QUType_QString.get(_o+1))); break;
+    case 16: fileOpenPm(); break;
+    case 17: fileOpenSegment(); break;
+    case 18: fileOpenConic(); break;
+    case 19: fileSave(); break;
+    case 20: fileSave_ps(); break;
+    case 21: fileSaveAs(); break;
+    case 22: print(); break;
+    case 23: properties(); break;
+    case 24: showGrid(); break;
+    case 25: hideGrid(); break;
+    case 26: backGroundColor(); break;
+    case 27: changeEdgeColor(); break;
+    case 28: changeVertexColor(); break;
+    case 29: pointLocationStrategy(); break;
+    case 30: openColorDialog(); break;
+    case 31: add_conic_tab(); break;
+    case 32: cartogram_balance(); break;
+    case 33: cartogram_weights(); break;
+    case 34: cartogram_it(); break;
+    case 35: cartogram_start(); break;
+    case 36: FaceArea((Conic_face_handle)(*((Conic_face_handle*)static_QUType_ptr.get(_o+1)))); break;
+    case 37: setUpWeights(); break;
+    case 38: extractRoughPolygonFromFace((Conic_face_handle)(*((Conic_face_handle*)static_QUType_ptr.get(_o+1)))); break;
+    case 39: extractFinePolygonFromFace((Conic_face_handle)(*((Conic_face_handle*)static_QUType_ptr.get(_o+1))),(float)(*((float*)static_QUType_ptr.get(_o+2)))); break;
+    case 40: extractPolygonKFromFace((Conic_face_handle)(*((Conic_face_handle*)static_QUType_ptr.get(_o+1)))); break;
+    case 41: extractDualFromArrangement((primalMap*)static_QUType_ptr.get(_o+1),(dualMap*)static_QUType_ptr.get(_o+2)); break;
+    case 42: print_all_weights(); break;
+    case 43: static_QUType_double.set(_o,calcBendingCapacityEstimate((Conic_face_handle)(*((Conic_face_handle*)static_QUType_ptr.get(_o+1))),(Conic_halfedge_handle)(*((Conic_halfedge_handle*)static_QUType_ptr.get(_o+2))))); break;
+    case 44: static_QUType_double.set(_o,calcBendingCapacityExact((Conic_face_handle)(*((Conic_face_handle*)static_QUType_ptr.get(_o+1))),(Conic_halfedge_handle)(*((Conic_halfedge_handle*)static_QUType_ptr.get(_o+2))),(primalMap*)static_QUType_ptr.get(_o+3))); break;
+    case 45: static_QUType_bool.set(_o,compareEdges((Conic_halfedge_handle)(*((Conic_halfedge_handle*)static_QUType_ptr.get(_o+1))),(Halfedge_handle)(*((Halfedge_handle*)static_QUType_ptr.get(_o+2))))); break;
+    case 46: static_QUType_double.set(_o,calculateAngle((Halfedge_handle)(*((Halfedge_handle*)static_QUType_ptr.get(_o+1))),(Halfedge_handle)(*((Halfedge_handle*)static_QUType_ptr.get(_o+2))),(K_point)(*((K_point*)static_QUType_ptr.get(_o+3))))); break;
+    case 47: static_QUType_double.set(_o,calculateAngle((Conic_halfedge_handle)(*((Conic_halfedge_handle*)static_QUType_ptr.get(_o+1))),(Conic_halfedge_handle)(*((Conic_halfedge_handle*)static_QUType_ptr.get(_o+2))),(Arr_conic_point_2)(*((Arr_conic_point_2*)static_QUType_ptr.get(_o+3))))); break;
+    case 48: static_QUType_double.set(_o,areaToArcHeight((double)static_QUType_double.get(_o+1),(Arr_conic_point_2)(*((Arr_conic_point_2*)static_QUType_ptr.get(_o+2))),(Arr_conic_point_2)(*((Arr_conic_point_2*)static_QUType_ptr.get(_o+3))))); break;
+    case 49: bendEdge((Conic_halfedge_handle)(*((Conic_halfedge_handle*)static_QUType_ptr.get(_o+1))),(double)static_QUType_double.get(_o+2)); break;
+    case 50: obtainCircularArc((Conic_halfedge_handle)(*((Conic_halfedge_handle*)static_QUType_ptr.get(_o+1))),(double)static_QUType_double.get(_o+2)); break;
+    case 51: showSkeleton((Conic_face_handle)(*((Conic_face_handle*)static_QUType_ptr.get(_o+1)))); break;
+    case 52: showSkeletonFace((Conic_face_handle)(*((Conic_face_handle*)static_QUType_ptr.get(_o+1))),(Conic_halfedge_handle)(*((Conic_halfedge_handle*)static_QUType_ptr.get(_o+2)))); break;
+    case 53: applyFlow((dualGraph*)static_QUType_ptr.get(_o+1),(primalMap*)static_QUType_ptr.get(_o+2),(dualMap*)static_QUType_ptr.get(_o+3)); break;
+    case 54: printDualToFile((dualGraph)(*((dualGraph*)static_QUType_ptr.get(_o+1)))); break;
+    case 55: store((dualGraph)(*((dualGraph*)static_QUType_ptr.get(_o+1))),(primalMap*)static_QUType_ptr.get(_o+2),(dualMap*)static_QUType_ptr.get(_o+3),(QString)static_QUType_QString.get(_o+4)); break;
+    case 56: static_QUType_bool.set(_o,vertexIsReflex((Conic_halfedge_handle)(*((Conic_halfedge_handle*)static_QUType_ptr.get(_o+1))),(Arr_conic_point_2)(*((Arr_conic_point_2*)static_QUType_ptr.get(_o+2))))); break;
+    case 57: getBoundingPolygon(); break;
+    case 58: getContinentPolygon((int)static_QUType_int.get(_o+1)); break;
+    case 59: clusterContinents(); break;
+    case 60: static_QUType_int.set(_o,searchConti((Conic_face_handle)(*((Conic_face_handle*)static_QUType_ptr.get(_o+1))))); break;
+    case 61: printSkeleton((SsPtr)(*((SsPtr*)static_QUType_ptr.get(_o+1)))); break;
+    case 62: storeStraight((QString)static_QUType_QString.get(_o+1)); break;
+    default:
+	return QMainWindow::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MyWindow::qt_emit( int _id, QUObject* _o )
+{
+    return QMainWindow::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MyWindow::qt_property( int id, int f, QVariant* v)
+{
+    return QMainWindow::qt_property( id, f, v);
+}
+
+bool MyWindow::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

@@ -1,0 +1,10 @@
+import glob
+
+env = Environment()
+env.Append(CCFLAGS="-O3")
+env.Append(LIBPATH="/usr/local/CGAL-3.8/lib/")
+env.Append(LIBS=["CGAL", "CGAL_Core"])
+env.Append(CPPPATH="/usr/local/CGAL-3.8/include/")
+object_list = env.Object("tester2.cpp")
+
+env.Program('viewer', object_list)

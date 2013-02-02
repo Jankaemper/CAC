@@ -1,0 +1,154 @@
+
+ Vertex OUTERFACE(Continent -1) has weight 0 and init area 0
+edge to Saarland with cap 59.4266 and edge from Saarland with cap 111.188
+edge to Nordrhein-Westfalen with cap 310.325 and edge from Nordrhein-Westfalen with cap 294.143
+edge to Baden-Württemberg with cap 415.364 and edge from Baden-Württemberg with cap 1319.48
+edge to Sachsen with cap 386.866 and edge from Sachsen with cap 810.882
+edge to TARGET with cap 1e+07 and edge from TARGET with cap 0
+
+ Vertex Saarland(Continent 0) has weight 664.341 and init area 303.251
+edge to Rheinland-Pfalz with cap 142.074 and edge from Rheinland-Pfalz with cap 58.185
+edge to OUTERFACE with cap 111.188 and edge from OUTERFACE with cap 59.4266
+edge to SOURCE with cap 0 and edge from SOURCE with cap 361.09
+
+ Vertex Rheinland-Pfalz(Continent 0) has weight 2621.77 and init area 2797.37
+edge to Saarland with cap 58.185 and edge from Saarland with cap 142.074
+edge to Hessen with cap 240.345 and edge from Hessen with cap 234
+edge to Nordrhein-Westfalen with cap 171.94 and edge from Nordrhein-Westfalen with cap 187.173
+edge to OUTERFACE2 with cap 162.793 and edge from OUTERFACE2 with cap 142.675
+edge to Baden-Württemberg with cap 80.2679 and edge from Baden-Württemberg with cap 79.8043
+edge to TARGET with cap 175.6 and edge from TARGET with cap 0
+
+ Vertex Bremen(Continent 0) has weight 433.541 and init area 49.4314
+edge to Niedersachsen with cap 3.92699e+14 and edge from Niedersachsen with cap 19.3912
+edge to SOURCE with cap 0 and edge from SOURCE with cap 384.11
+
+ Vertex Nordrhein-Westfalen(Continent 0) has weight 11697 and init area 5221.4
+edge to Rheinland-Pfalz with cap 187.173 and edge from Rheinland-Pfalz with cap 171.94
+edge to Niedersachsen with cap 477.151 and edge from Niedersachsen with cap 346.663
+edge to OUTERFACE with cap 294.143 and edge from OUTERFACE with cap 310.325
+edge to Hessen with cap 259.143 and edge from Hessen with cap 116.753
+edge to SOURCE with cap 0 and edge from SOURCE with cap 6475.57
+
+ Vertex Hessen(Continent 0) has weight 3993.93 and init area 3038.19
+edge to Rheinland-Pfalz with cap 234 and edge from Rheinland-Pfalz with cap 240.345
+edge to Nordrhein-Westfalen with cap 116.753 and edge from Nordrhein-Westfalen with cap 259.143
+edge to Thüringen with cap 77.9279 and edge from Thüringen with cap 251.376
+edge to Niedersachsen with cap 30.9839 and edge from Niedersachsen with cap 40.5717
+edge to Baden-Württemberg with cap 32.2078 and edge from Baden-Württemberg with cap 16.6932
+edge to Bayern with cap 101.68 and edge from Bayern with cap 125.022
+edge to SOURCE with cap 0 and edge from SOURCE with cap 955.733
+
+ Vertex Hamburg(Continent 0) has weight 1179.3 and init area 146.224
+edge to Schleswig-Holstein with cap 72.656 and edge from Schleswig-Holstein with cap 35.6585
+edge to Niedersachsen with cap 102.806 and edge from Niedersachsen with cap 33.6532
+edge to SOURCE with cap 0 and edge from SOURCE with cap 1033.07
+
+ Vertex Baden-Württemberg(Continent 0) has weight 7071.32 and init area 4898.97
+edge to Rheinland-Pfalz with cap 79.8043 and edge from Rheinland-Pfalz with cap 80.2679
+edge to Hessen with cap 16.6932 and edge from Hessen with cap 32.2078
+edge to Bayern with cap 447.841 and edge from Bayern with cap 333.611
+edge to OUTERFACE with cap 1319.48 and edge from OUTERFACE with cap 415.364
+edge to SOURCE with cap 0 and edge from SOURCE with cap 2172.35
+
+ Vertex Schleswig-Holstein(Continent 0) has weight 1860.32 and init area 2676.84
+edge to Hamburg with cap 35.6585 and edge from Hamburg with cap 72.656
+edge to OUTERFACE2 with cap 1808.23 and edge from OUTERFACE2 with cap 590.794
+edge to Niedersachsen with cap 97.2595 and edge from Niedersachsen with cap 76.4649
+edge to Mecklenburg-Vorpommern with cap 69.9818 and edge from Mecklenburg-Vorpommern with cap 64.5082
+edge to TARGET with cap 816.521 and edge from TARGET with cap 0
+
+ Vertex Niedersachsen(Continent 0) has weight 5188 and init area 7777.26
+edge to Bremen with cap 19.3912 and edge from Bremen with cap 3.92699e+14
+edge to Nordrhein-Westfalen with cap 346.663 and edge from Nordrhein-Westfalen with cap 477.151
+edge to Hessen with cap 40.5717 and edge from Hessen with cap 30.9839
+edge to Hamburg with cap 33.6532 and edge from Hamburg with cap 102.806
+edge to Schleswig-Holstein with cap 76.4649 and edge from Schleswig-Holstein with cap 97.2595
+edge to Brandenburg with cap 5.34093 and edge from Brandenburg with cap 8.42424
+edge to Mecklenburg-Vorpommern with cap 43.4745 and edge from Mecklenburg-Vorpommern with cap 71.5057
+edge to OUTERFACE2 with cap 775.641 and edge from OUTERFACE2 with cap 641.108
+edge to Thüringen with cap 77.627 and edge from Thüringen with cap 90.593
+edge to Sachsen-Anhalt with cap 349.245 and edge from Sachsen-Anhalt with cap 263.241
+edge to TARGET with cap 2589.27 and edge from TARGET with cap 0
+
+ Vertex Thüringen(Continent 0) has weight 1456.21 and init area 2417.04
+edge to Hessen with cap 251.376 and edge from Hessen with cap 77.9279
+edge to Niedersachsen with cap 90.593 and edge from Niedersachsen with cap 77.627
+edge to Sachsen with cap 92.439 and edge from Sachsen with cap 56.7176
+edge to Sachsen-Anhalt with cap 153.171 and edge from Sachsen-Anhalt with cap 189.569
+edge to Bayern with cap 165.643 and edge from Bayern with cap 116.859
+edge to TARGET with cap 960.835 and edge from TARGET with cap 0
+
+ Vertex Sachsen-Anhalt(Continent 0) has weight 1516.56 and init area 3264.72
+edge to Niedersachsen with cap 263.241 and edge from Niedersachsen with cap 349.245
+edge to Thüringen with cap 189.569 and edge from Thüringen with cap 153.171
+edge to Brandenburg with cap 373.968 and edge from Brandenburg with cap 325.128
+edge to Sachsen with cap 151.751 and edge from Sachsen with cap 208.78
+edge to TARGET with cap 1748.16 and edge from TARGET with cap 0
+
+ Vertex Berlin(Continent 0) has weight 2295.79 and init area 154.764
+edge to Brandenburg with cap 5.49779e+14 and edge from Brandenburg with cap 76.0184
+edge to SOURCE with cap 0 and edge from SOURCE with cap 2141.02
+
+ Vertex Bayern(Continent 0) has weight 8257.72 and init area 9683.83
+edge to Hessen with cap 125.022 and edge from Hessen with cap 101.68
+edge to Baden-Württemberg with cap 333.611 and edge from Baden-Württemberg with cap 447.841
+edge to Thüringen with cap 116.859 and edge from Thüringen with cap 165.643
+edge to OUTERFACE2 with cap 1876.37 and edge from OUTERFACE2 with cap 1315.5
+edge to Sachsen with cap 13.2153 and edge from Sachsen with cap 9.92017
+edge to TARGET with cap 1426.12 and edge from TARGET with cap 0
+
+ Vertex Mecklenburg-Vorpommern(Continent 0) has weight 1071.71 and init area 3773.93
+edge to Schleswig-Holstein with cap 64.5082 and edge from Schleswig-Holstein with cap 69.9818
+edge to Niedersachsen with cap 71.5057 and edge from Niedersachsen with cap 43.4745
+edge to OUTERFACE2 with cap 759.15 and edge from OUTERFACE2 with cap 379.869
+edge to Brandenburg with cap 404.882 and edge from Brandenburg with cap 376.884
+edge to TARGET with cap 2702.22 and edge from TARGET with cap 0
+
+ Vertex Brandenburg(Continent 0) has weight 1636.11 and init area 4840.59
+edge to Niedersachsen with cap 8.42424 and edge from Niedersachsen with cap 5.34093
+edge to Sachsen-Anhalt with cap 325.128 and edge from Sachsen-Anhalt with cap 373.968
+edge to Berlin with cap 76.0184 and edge from Berlin with cap 5.49779e+14
+edge to Mecklenburg-Vorpommern with cap 376.884 and edge from Mecklenburg-Vorpommern with cap 404.882
+edge to OUTERFACE2 with cap 716.577 and edge from OUTERFACE2 with cap 446.686
+edge to Sachsen with cap 186.73 and edge from Sachsen with cap 111.74
+edge to TARGET with cap 3204.48 and edge from TARGET with cap 0
+
+ Vertex Sachsen(Continent -1) has weight 2712.2 and init area 2611.94
+edge to Thüringen with cap 56.7176 and edge from Thüringen with cap 92.439
+edge to Sachsen-Anhalt with cap 208.78 and edge from Sachsen-Anhalt with cap 151.751
+edge to Bayern with cap 9.92017 and edge from Bayern with cap 13.2153
+edge to Brandenburg with cap 111.74 and edge from Brandenburg with cap 186.73
+edge to OUTERFACE with cap 810.882 and edge from OUTERFACE with cap 386.866
+edge to SOURCE with cap 0 and edge from SOURCE with cap 100.264
+
+ Vertex OUTERFACE2(Continent 0) has weight 0 and init area 0
+edge to Rheinland-Pfalz with cap 142.675 and edge from Rheinland-Pfalz with cap 162.793
+edge to Schleswig-Holstein with cap 590.794 and edge from Schleswig-Holstein with cap 1808.23
+edge to Niedersachsen with cap 641.108 and edge from Niedersachsen with cap 775.641
+edge to Bayern with cap 1315.5 and edge from Bayern with cap 1876.37
+edge to Mecklenburg-Vorpommern with cap 379.869 and edge from Mecklenburg-Vorpommern with cap 759.15
+edge to Brandenburg with cap 446.686 and edge from Brandenburg with cap 716.577
+edge to SOURCE with cap 0 and edge from SOURCE with cap 1e+07
+
+ Vertex SOURCE(Continent 0) has weight 0 and init area 0
+edge to OUTERFACE2 with cap 1e+07 and edge from OUTERFACE2 with cap 0
+edge to Saarland with cap 361.09 and edge from Saarland with cap 0
+edge to Bremen with cap 384.11 and edge from Bremen with cap 0
+edge to Nordrhein-Westfalen with cap 6475.57 and edge from Nordrhein-Westfalen with cap 0
+edge to Hessen with cap 955.733 and edge from Hessen with cap 0
+edge to Hamburg with cap 1033.07 and edge from Hamburg with cap 0
+edge to Baden-Württemberg with cap 2172.35 and edge from Baden-Württemberg with cap 0
+edge to Berlin with cap 2141.02 and edge from Berlin with cap 0
+edge to Sachsen with cap 100.264 and edge from Sachsen with cap 0
+
+ Vertex TARGET(Continent 0) has weight 0 and init area 0
+edge to OUTERFACE with cap 0 and edge from OUTERFACE with cap 1e+07
+edge to Rheinland-Pfalz with cap 0 and edge from Rheinland-Pfalz with cap 175.6
+edge to Schleswig-Holstein with cap 0 and edge from Schleswig-Holstein with cap 816.521
+edge to Niedersachsen with cap 0 and edge from Niedersachsen with cap 2589.27
+edge to Thüringen with cap 0 and edge from Thüringen with cap 960.835
+edge to Sachsen-Anhalt with cap 0 and edge from Sachsen-Anhalt with cap 1748.16
+edge to Bayern with cap 0 and edge from Bayern with cap 1426.12
+edge to Mecklenburg-Vorpommern with cap 0 and edge from Mecklenburg-Vorpommern with cap 2702.22
+edge to Brandenburg with cap 0 and edge from Brandenburg with cap 3204.48

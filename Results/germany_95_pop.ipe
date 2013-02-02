@@ -1,0 +1,528 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70005" creator="Ipe 7.1.1">
+<info created="D:20110803231932" modified="D:20121130210434"/>
+<ipestyle name="basic">
+<pen name="heavier" value="0.8"/>
+<pen name="fat" value="1.2"/>
+<pen name="ultrafat" value="2"/>
+<color name="red" value="1 0 0"/>
+<color name="green" value="0 1 0"/>
+<color name="blue" value="0 0 1"/>
+<color name="yellow" value="1 1 0"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="gray" value="0.745"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+</ipestyle>
+<page>
+<layer name="alpha"/>
+<layer name="beta"/>
+<view layers="beta" active="beta"/>
+<path layer="beta" stroke="black" pen="fat">
+361.473 608.344 m
+360.965 638.074 l
+</path>
+<path stroke="black" pen="fat">
+284.413 590.633 m
+361.473 608.344 l
+</path>
+<path stroke="black" pen="fat">
+134.56 551.679 m
+160.143 553.976 l
+</path>
+<path stroke="black" pen="fat">
+160.143 553.976 m
+159.472 538.321 l
+</path>
+<path stroke="black" pen="fat">
+145.232 538.211 m
+-9.13153 0 0 9.13153 137.472 543.024 134.56 551.679 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+145.232 538.211 m
+134.56 551.679 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+159.472 538.321 m
+7.20707 0 0 -7.20707 152.343 539.381 145.232 538.211 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+159.472 538.321 m
+145.232 538.211 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+160.143 553.976 m
+134.56 551.679 l
+</path>
+<path stroke="black" pen="fat">
+159.472 538.321 m
+160.143 553.976 l
+</path>
+<path stroke="black" pen="fat">
+182.551 601.911 m
+192.576 555.366 l
+</path>
+<path stroke="black" pen="fat">
+135.576 586.491 m
+182.551 601.911 l
+</path>
+<path stroke="black" pen="fat">
+183.347 531.351 m
+159.472 538.321 l
+</path>
+<path stroke="black" pen="fat">
+192.576 555.366 m
+183.347 531.351 l
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+191.86 712.993 m
+205.108 709.591 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+205.108 704.042 m
+191.86 712.993 l
+</path>
+<path stroke="black" pen="fat">
+205.108 709.591 m
+205.108 704.042 l
+</path>
+<path stroke="black" pen="fat">
+182.551 601.911 m
+135.576 586.491 l
+</path>
+<path stroke="black" pen="fat">
+199.162 675.52 m
+19.8597 0 0 -19.8597 203.045 656.044 216.297 641.252 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+199.162 675.52 m
+216.297 641.252 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+153.617 669.074 m
+35.4956 0 0 -35.4956 180.178 645.527 199.162 675.52 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+153.617 669.074 m
+199.162 675.52 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+123.633 650.779 m
+20.1018 0 0 -20.1018 143.719 651.578 153.617 669.074 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+123.633 650.779 m
+153.617 669.074 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+135.576 586.491 m
+32.8853 0 0 -32.8853 133.087 619.282 123.633 650.779 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+135.576 586.491 m
+123.633 650.779 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+216.297 641.252 m
+182.551 601.911 l
+</path>
+<path stroke="black" pen="fat">
+192.576 555.366 m
+182.551 601.911 l
+</path>
+<path stroke="black" pen="fat">
+182.551 601.911 m
+216.297 641.252 l
+</path>
+<path stroke="black" pen="fat">
+230.528 631.718 m
+23.7292 0 0 -23.7292 217.668 611.776 234.646 595.198 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+230.528 631.718 m
+234.646 595.198 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+216.297 641.252 m
+10.0438 0 0 -10.0438 220.492 632.126 230.528 631.718 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+216.297 641.252 m
+230.528 631.718 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+208.33 554.292 m
+192.576 555.366 l
+</path>
+<path stroke="black" pen="fat">
+234.646 595.198 m
+208.33 554.292 l
+</path>
+<path stroke="black" pen="fat">
+237.331 737.16 m
+8.3907 0 0 -8.3907 235.242 729.034 241.27 723.197 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+237.331 737.16 m
+241.27 723.197 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+225.158 729.104 m
+8.69282 0 0 -8.69282 233.85 729.194 237.331 737.16 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+225.158 729.104 m
+237.331 737.16 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+241.27 723.197 m
+-8.58922 0 0 8.58922 233.08 725.784 225.158 729.104 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+241.27 723.197 m
+225.158 729.104 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+183.347 531.351 m
+192.576 555.366 l
+</path>
+<path stroke="black" pen="fat">
+192.576 555.366 m
+208.33 554.292 l
+</path>
+<path stroke="black" pen="fat">
+228.201 554.113 m
+246.461 518.846 l
+</path>
+<path stroke="black" pen="fat">
+208.33 554.292 m
+228.201 554.113 l
+</path>
+<path stroke="black" pen="fat">
+246.461 518.846 m
+225.274 473.161 l
+</path>
+<path stroke="black" pen="fat">
+167.339 473.415 m
+42.4503 0 0 -42.4503 204.241 494.398 183.347 531.351 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+167.339 473.415 m
+183.347 531.351 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+225.274 473.161 m
+-28.9753 0 0 28.9753 196.304 472.627 167.339 473.415 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+225.274 473.161 m
+167.339 473.415 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+225.158 729.104 m
+205.154 741.621 l
+</path>
+<path stroke="black" pen="fat">
+249.736 721.08 m
+241.27 723.197 l
+</path>
+<path stroke="black" pen="fat">
+261.639 748.854 m
+249.736 721.08 l
+</path>
+<path stroke="black" pen="fat">
+191.86 712.993 m
+205.108 704.042 l
+</path>
+<path stroke="black" pen="fat">
+205.108 704.042 m
+205.108 709.591 l
+</path>
+<path stroke="black" pen="fat">
+205.154 741.621 m
+225.158 729.104 l
+</path>
+<path stroke="black" pen="fat">
+241.27 723.197 m
+249.736 721.08 l
+</path>
+<path stroke="black" pen="fat">
+270.008 708.514 m
+276.357 704.579 l
+</path>
+<path stroke="black" pen="fat">
+249.736 721.08 m
+270.008 708.514 l
+</path>
+<path stroke="black" pen="fat">
+251.116 642.907 m
+230.528 631.718 l
+</path>
+<path stroke="black" pen="fat">
+276.357 704.579 m
+251.116 642.907 l
+</path>
+<path stroke="black" pen="fat">
+230.528 631.718 m
+251.116 642.907 l
+</path>
+<path stroke="black" pen="fat">
+251.116 642.907 m
+294.08 618.202 l
+</path>
+<path stroke="black" pen="fat">
+251.116 642.907 m
+276.357 704.579 l
+</path>
+<path stroke="black" pen="fat">
+294.08 618.202 m
+251.116 642.907 l
+</path>
+<path stroke="black" pen="fat">
+276.357 704.579 m
+315.921 643.086 l
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+327.736 688.199 m
+332.927 673.877 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+208.33 554.292 m
+234.646 595.198 l
+</path>
+<path stroke="black" pen="fat">
+246.461 518.846 m
+228.201 554.113 l
+</path>
+<path stroke="black" pen="fat">
+228.201 554.113 m
+208.33 554.292 l
+</path>
+<path stroke="black" pen="fat">
+225.274 473.161 m
+246.461 518.846 l
+</path>
+<path stroke="black" pen="fat">
+234.646 595.198 m
+32.2455 0 0 -32.2455 257.668 572.62 284.413 590.633 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+234.646 595.198 m
+284.413 590.633 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+336.571 521.695 m
+307.604 476.973 l
+</path>
+<path stroke="black" pen="fat">
+249.736 721.08 m
+261.639 748.854 l
+</path>
+<path stroke="black" pen="fat">
+270.008 708.514 m
+249.736 721.08 l
+</path>
+<path stroke="black" pen="fat">
+350.039 723.054 m
+270.008 708.514 l
+</path>
+<path stroke="black" pen="fat">
+276.357 704.579 m
+270.008 708.514 l
+</path>
+<path stroke="black" pen="fat">
+315.921 643.086 m
+276.357 704.579 l
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+318.069 678.72 m
+332.927 673.877 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+270.008 708.514 m
+350.039 723.054 l
+</path>
+<path stroke="black" pen="fat">
+284.413 590.633 m
+19.0964 0 0 -19.0964 300.854 600.347 294.08 618.202 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+284.413 590.633 m
+294.08 618.202 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+294.08 618.202 m
+21.4469 0 0 -21.4469 315.248 621.65 315.921 643.086 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+294.08 618.202 m
+315.921 643.086 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+315.921 643.086 m
+9.70909 0 0 -9.70909 312.18 634.126 320.645 629.371 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+315.921 643.086 m
+320.645 629.371 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+320.645 629.371 m
+104.313 0 0 -104.313 362.379 533.771 360.965 638.074 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+320.645 629.371 m
+360.965 638.074 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+360.965 638.074 m
+361.473 608.344 l
+</path>
+<path stroke="black" pen="fat">
+361.473 608.344 m
+284.413 590.633 l
+</path>
+<path stroke="black" pen="fat">
+135.576 586.491 m
+32.8658 0 0 -32.8658 107.206 569.898 134.56 551.679 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+135.576 586.491 m
+134.56 551.679 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+159.472 538.321 m
+183.347 531.351 l
+</path>
+<path stroke="black" pen="fat">
+262.229 766.836 m
+71.7646 0 0 -71.7646 251.411 837.781 196.307 791.806 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+262.229 766.836 m
+196.307 791.806 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+196.307 791.806 m
+51.6047 0 0 -51.6047 156.536 758.923 205.154 741.621 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+196.307 791.806 m
+205.154 741.621 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+261.639 748.854 m
+11.0817 0 0 -11.0817 268.402 757.633 262.229 766.836 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+261.639 748.854 m
+262.229 766.836 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+205.154 741.621 m
+33.0534 0 0 -33.0534 175.298 755.803 154.529 730.089 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+205.154 741.621 m
+154.529 730.089 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+154.529 730.089 m
+47.2323 0 0 -47.2323 118.022 700.12 153.617 669.074 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+154.529 730.089 m
+153.617 669.074 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+336.571 521.695 m
+52.8608 0 0 -52.8608 334.76 574.525 284.413 590.633 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+336.571 521.695 m
+284.413 590.633 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+225.274 473.161 m
+86.6595 0 0 -86.6595 269.965 398.914 307.604 476.973 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+225.274 473.161 m
+307.604 476.973 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+307.604 476.973 m
+336.571 521.695 l
+</path>
+<path stroke="black" pen="fat">
+350.039 723.054 m
+17.2461 0 0 -17.2461 360.039 737.105 345.973 747.084 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+350.039 723.054 m
+345.973 747.084 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+345.973 747.084 m
+21.9304 0 0 -21.9304 336.394 766.812 314.614 769.377 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+345.973 747.084 m
+314.614 769.377 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+314.614 769.377 m
+32.4073 0 0 -32.4073 282.491 773.662 261.639 748.854 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+314.614 769.377 m
+261.639 748.854 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+360.965 638.074 m
+62.5428 0 0 -62.5428 400.697 686.375 350.039 723.054 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+360.965 638.074 m
+350.039 723.054 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+191.86 712.993 m
+-8.57072 0 0 8.57072 199.769 716.296 205.108 709.591 a
+</path>
+<path layer="alpha" stroke="gray" pen="fat">
+327.736 688.199 m
+318.069 678.72 l
+</path>
+<path layer="beta" stroke="black" pen="fat">
+318.069 678.72 m
+6.77056 0 0 -6.77056 322.988 683.372 327.736 688.199 a
+</path>
+<path stroke="black" pen="fat">
+318.069 678.72 m
+6.77056 0 0 -6.77056 322.988 683.372 327.736 688.199 a
+</path>
+<path stroke="black" pen="fat">
+318.069 678.72 m
+6.77056 0 0 -6.77056 322.988 683.372 327.736 688.199 a
+</path>
+<path stroke="black" pen="fat">
+318.069 678.72 m
+8.52752 0 0 8.52752 324.439 673.051 332.927 673.877 a
+</path>
+<path stroke="black" pen="fat">
+327.736 688.199 m
+-7.62223 0 0 7.62223 330.601 681.136 332.927 673.877 a
+</path>
+</page>
+</ipe>
